@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 32px;
+    min-height: 100vh;
+    background: #ffffff;
+    color: #1a1a2e;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+h1 {
+    color: #001f3f;
+    font-size: 2.4rem;
+    padding-bottom: 14px;
+    border-bottom: 3px solid #001f3f;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+h2 {
+    color: #001f3f;
+    font-size: 1.7rem;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    border-left: 5px solid #003366;
+    padding-left: 12px;
+}
+
+h3 {
+    color: #003366;
+    font-size: 1.35rem;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    max-width: 950px;
+}
+
+ul, ol {
+    max-width: 950px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: 9px 0;
+}
+
+dl {
+    max-width: 950px;
+    margin-bottom: 20px;
+}
+
+dt {
+    font-weight: bold;
+    color: #001f3f;
+    margin-top: 14px;
+}
+
+dd {
+    margin-left: 32px;
+    margin-bottom: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    max-width: 950px;
+    margin-bottom: 28px;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #001f3f;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 14px 18px;
+    border: 1px solid #666666;
+}
+
+th {
+    background: #dbe5f0;
+    color: #001f3f;
+    font-weight: bold;
+}
+
+th[scope="col"] {
+    background: #b9c9da;
+}
+
+th[scope="row"] {
+    background: #dbe5f0;
+}
+
+.section {
+    margin-bottom: 42px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.note {
+    font-style: italic;
+    color: #444444;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    background: #f4f7fa;
+    border-left: 4px solid #003366;
+}
+
+code {
+    background: #eef2f7;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: monospace;
+    color: #003366;
+}
+
+@media (max-width: 600px) {
+    body { padding: 18px; font-size: 16px; }
+    th, td { padding: 10px 12px; font-size: 15px; }
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+}
